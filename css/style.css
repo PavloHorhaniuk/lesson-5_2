@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    width: 250px;
+    height: 500px;
+    margin: 0 ;
+    background-color: ;
+    /* transform: translateX(-95%); */
+    transition: transform 500ms ease;
+}
+/* .box:hover{
+    transform: translateX(0%);
+
+} */
+
+.list{
+    padding-top: 100px;
+}
+
+.item{
+    gap: 30px;
+}
+.link{
+    display: flex;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.item::before{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/th.jpg);
+    content: '';
+    background-repeat: repeat;
+    background-color: black;
+}
