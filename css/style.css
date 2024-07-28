@@ -1,16 +1,25 @@
 .box{
     display: flex;
-    width: 250px;
+    width: 255px;
     height: 500px;
     margin: 0 ;
-    background-color: ;
-    /* transform: translateX(-95%); */
+    background-color: gray;
+    transform: translateX(-90%);
     transition: transform 500ms ease;
+
 }
-/* .box:hover{
+.box:hover{
     transform: translateX(0%);
 
-} */
+}
+
+.text{
+    display: block;
+    transform: translateX(-38%) rotate(90deg);
+}
+.box:hover .text{
+    display: none;
+}
 
 .list{
     padding-top: 100px;
@@ -31,6 +40,8 @@
     height: 30px;
     background-image: url(../img/th.jpg);
     content: '';
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-color: black;
+    background-size: 100%;
+    
 }
