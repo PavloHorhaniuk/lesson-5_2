@@ -5,7 +5,7 @@
     height: 500px;
     margin: 0 ;
     background-color: gray;
-    transform: translateX(-90%);
+    transform: translateX(-93%);
     transition: transform 500ms ease;
 
 }
@@ -18,7 +18,7 @@
     display: block;
     position: relative;
     transform: translateX(-38%) rotate(90deg);
-    left: 20%;
+    left: 23%;
     color: white;
 }
 .box:hover .text{
@@ -31,7 +31,6 @@
 
 .item{
     display: flex;
-
     gap: 15px;
     
 }
