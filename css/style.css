@@ -1,6 +1,7 @@
 .box{
     display: flex;
-    width: 300px;
+    position: absolute;
+    width: 325px;
     height: 500px;
     margin: 0 ;
     background-color: gray;
@@ -15,8 +16,9 @@
 
 .text{
     display: block;
+    position: relative;
     transform: translateX(-38%) rotate(90deg);
-    margin-left: 40px;
+    left: 20%;
     color: white;
 }
 .box:hover .text{
@@ -29,14 +31,13 @@
 
 .item{
     display: flex;
-    /* margin-left: 30px; */
+
     gap: 15px;
     
 }
 .link{
     /* display: flex; */
     margin-bottom: 20px;
-    /* margin-left: 50px; */
     color: white;
     
 }
